@@ -1,0 +1,994 @@
+
+
+
+
+
+
+Master: Current client end 1
+Master: Current upper bound 14 total clients 1 cache size 4
+Client 0: Current upper bound 14 total clients 1 cache size 4
+Client 0: Cache: 8 1 5 14 
+Master: Current tick 0 other val 100
+Client 0: Generating request at time: 19
+Client 0: Cache: 8 1 5 14 
+Client 0: Generated request for 5
+Client 0: I have the block
+Client 0: End time 19
+Client 0: Generating request at time: 38
+Client 0: Cache: 8 1 5 14 
+Client 0: Generated request for 2
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Client 0: Block retrieved from server cache
+Client 0: End time 138
+Client 0: Time entires: 0.0100.0
+Client 0: Total requests: 2 Average time: 50.0
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+MASTER: Total clients 1 avg time 50.0 average: 50.0
+Client 0: Generating request at time: 158
+Client 0: Cache: 8 1 5 14 
+Client 0: Generated request for 2
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Client 0: Block retrieved from server cache
+Client 0: End time 258
+MASTER: STOPPED ALL THE CLIENTS
+Master: New end client number 4
+
+
+
+
+
+
+Master: Current client end 4
+Master: Current upper bound 26 total clients 4 cache size 4
+Client 0: Current upper bound 26 total clients 4 cache size 4
+Client 0: Cache: 12 21 5 19 
+Client 1: Current upper bound 26 total clients 4 cache size 4
+Client 1: Cache: 21 24 6 9 
+Client 2: Current upper bound 26 total clients 4 cache size 4
+Client 2: Cache: 26 13 10 5 
+Client 3: Current upper bound 26 total clients 4 cache size 4
+Client 3: Cache: 7 4 24 18 
+Client 1: Generating request at time: 278
+Client 3: Generating request at time: 278
+Client 2: Generating request at time: 278
+Master: Current tick 139 other val 100
+Client 0: Generating request at time: 278
+Client 0: Time entires: Client 2: Cache: Client 3: Cache: Client 1: Cache: 7 26 
+Client 0: Cache: 12 13 4 21 24 10 21 Client 0: Total requests: 0 Average time: NaN
+5 5 
+18 
+24 6 Client 3: Generated request for 18
+Client 3: I have the block
+Client 3: End time 278
+Client 2: Generated request for 21
+19 
+Client 0: Generated request for 25
+Client 0: Need to check other client's caches
+Client 1: Time entires: 
+Client 0: Need to get the block from other clients of present
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Master: For client 2 Found block with client 0
+Client 2: End time 278
+9 Client 0: Block is not present in any client, need to check server cache
+Client 0: Block retrieved from server cache
+Client 0: End time 378
+Client 1: Total requests: 0 Average time: NaN
+Client 2: Time entires: 
+0.0
+Client 1: Generated request for 4
+Client 2: Total requests: 1 Average time: 0.0
+Client 1: Need to check other client's caches
+Client 3: Time entires: Client 1: Need to get the block from other clients of present
+0.0
+Master: For client 1 Found block with client 3
+Client 3: Total requests: 1 Average time: 0.0
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+Client 1: End time 378
+MASTER: Total clients 4 avg time NaN average: NaN
+MASTER: STOPPED ALL THE CLIENTS
+Master: New end client number 7
+
+
+
+
+
+
+Master: Current client end 7
+Master: Current upper bound 38 total clients 7 cache size 4
+Client 0: Current upper bound 38 total clients 7 cache size 4
+Client 0: Cache: 38 18 17 1 
+Client 1: Current upper bound 38 total clients 7 cache size 4
+Client 1: Cache: 15 36 12 34 
+Client 2: Current upper bound 38 total clients 7 cache size 4
+Client 2: Cache: 25 12 8 10 
+Client 3: Current upper bound 38 total clients 7 cache size 4
+Client 3: Cache: 11 34 3 18 
+Client 4: Current upper bound 38 total clients 7 cache size 4
+Client 4: Cache: 11 38 31 26 
+Client 5: Current upper bound 38 total clients 7 cache size 4
+Client 5: Cache: 20 23 37 7 
+Client 6: Current upper bound 38 total clients 7 cache size 4
+Client 6: Cache: 37 3 8 12 
+Client 0: Generating request at time: 397
+Client 0: Cache: Client 2: Generating request at time: 397
+Client 2: Cache: Client 1: Generating request at time: 397
+Client 1: Cache: Client 6: Generating request at time: 397
+Client 6: Cache: Client 5: Generating request at time: 397
+Client 5: Cache: Master: Current tick 139 other val 100
+Client 0: Time entires: Client 3: Generating request at time: 397
+Client 3: Cache: Client 4: Generating request at time: 397
+Client 4: Cache: 11 34 
+Client 0: Total requests: 0 Average time: NaN
+Client 1: Time entires: 
+20 23 37 3 8 12 
+15 36 25 38 12 12 Client 6: Generated request for 25
+37 Client 1: Total requests: 0 Average time: NaN
+3 11 18 
+Client 2: Time entires: 
+7 
+Client 6: Need to check other client's caches
+Client 6: Need to get the block from other clients of present
+34 
+8 10 18 17 
+Client 2: Generated request for 34
+Client 1: Generated request for 27
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Master: For client 6 Found block with client 2
+Client 5: Generated request for 5
+Client 2: Total requests: 0 Average time: NaN
+Client 3: Generated request for 21
+38 Client 3: Need to check other client's caches
+Client 3: Time entires: 
+Client 5: Need to check other client's caches
+Client 5: Need to get the block from other clients of present
+Client 1: Block is not present in any client, need to check server cache
+Client 1: Block retrieved from server cache
+Client 6: End time 397
+Client 2: Need to check other client's caches
+1 
+Client 2: Need to get the block from other clients of present
+Client 1: End time 497
+Client 5: Block is not present in any client, need to check server cache
+Client 3: Total requests: 0 Average time: NaN
+Client 3: Need to get the block from other clients of present
+31 Client 4: Time entires: 
+Master: For client 2 Found block with client 1
+Client 0: Generated request for 8
+Client 3: Block is not present in any client, need to check server cache
+Client 5: Block retrieved from server cache
+Client 2: End time 597
+Client 4: Total requests: 0 Average time: NaN
+26 
+Client 5: Time entires: 
+Client 5: End time 697
+Client 3: Block retrieved from server cache
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 3: End time 697
+Client 5: Total requests: 0 Average time: NaN
+Client 4: Generated request for 21
+Client 6: Time entires: Master: For client 0 Found block with client 2
+0.0
+Client 4: Need to check other client's caches
+Client 6: Total requests: 1 Average time: 0.0
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+Client 0: End time 697
+MASTER: Total clients 7 avg time NaN average: NaN
+Client 4: Need to get the block from other clients of present
+Client 4: Block is not present in any client, need to check server cache
+Client 4: Block retrieved from server cache
+Client 4: End time 797
+MASTER: STOPPED ALL THE CLIENTS
+Master: New end client number 10
+
+
+
+
+
+
+Master: Current client end 10
+Master: Current upper bound 50 total clients 10 cache size 4
+Client 0: Current upper bound 50 total clients 10 cache size 4
+Client 0: Cache: 22 4 47 44 
+Client 1: Current upper bound 50 total clients 10 cache size 4
+Client 1: Cache: 8 34 25 3 
+Client 2: Current upper bound 50 total clients 10 cache size 4
+Client 2: Cache: 19 25 35 38 
+Client 3: Current upper bound 50 total clients 10 cache size 4
+Client 3: Cache: 10 28 7 19 
+Client 4: Current upper bound 50 total clients 10 cache size 4
+Client 4: Cache: 30 46 29 19 
+Client 5: Current upper bound 50 total clients 10 cache size 4
+Client 5: Cache: 17 15 12 14 
+Client 6: Current upper bound 50 total clients 10 cache size 4
+Client 6: Cache: 36 37 11 22 
+Client 7: Current upper bound 50 total clients 10 cache size 4
+Client 7: Cache: 31 6 3 5 
+Client 8: Current upper bound 50 total clients 10 cache size 4
+Client 8: Cache: 31 5 43 42 
+Client 9: Current upper bound 50 total clients 10 cache size 4
+Client 9: Cache: 4 34 9 2 
+Client 1: Generating request at time: 817
+Client 6: Generating request at time: 817
+Client 6: Cache: Client 8: Generating request at time: 817
+Client 8: Cache: 31 Master: Current tick 139 other val 100
+Client 7: Generating request at time: 817
+Client 7: Cache: 31 6 3 5 
+Client 1: Cache: Client 5: Generating request at time: 817
+Client 5: Cache: Client 4: Generating request at time: 817
+Client 3: Generating request at time: 817
+Client 3: Cache: Client 2: Generating request at time: 817
+Client 2: Cache: Client 0: Generating request at time: 817
+Client 0: Cache: 22 4 47 44 
+19 10 28 7 19 
+Client 4: Cache: 17 Client 9: Generating request at time: 817
+8 Client 7: Generated request for 17
+Client 7: Need to check other client's caches
+Client 7: Need to get the block from other clients of present
+Client 0: Time entires: 
+Client 0: Total requests: 0 Average time: NaN
+Client 1: Time entires: 
+Client 1: Total requests: 0 Average time: NaN
+Client 2: Time entires: 
+Client 2: Total requests: 0 Average time: NaN
+Client 3: Time entires: 
+5 36 43 Client 3: Total requests: 0 Average time: NaN
+Client 4: Time entires: 
+Master: For client 7 Found block with client 5
+Client 7: End time 817
+34 25 Client 9: Cache: 4 34 15 12 30 46 29 19 
+Client 3: Generated request for 37
+25 Client 0: Generated request for 5
+35 Client 3: Need to check other client's caches
+Client 3: Need to get the block from other clients of present
+Client 4: Generated request for 28
+14 
+9 3 
+Client 4: Total requests: 0 Average time: NaN
+Client 5: Time entires: 
+42 
+37 11 22 
+Client 8: Generated request for 44
+Client 8: Need to check other client's caches
+Client 8: Need to get the block from other clients of present
+Client 5: Total requests: 0 Average time: NaN
+Client 6: Time entires: 
+Client 6: Total requests: 0 Average time: NaN
+Client 7: Time entires: Client 1: Generated request for 45
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+2 
+Client 5: Generated request for 49
+Client 4: Need to check other client's caches
+Client 4: Need to get the block from other clients of present
+Master: For client 3 Found block with client 6
+Client 3: End time 817
+38 
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 2: Generated request for 1
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Master: For client 4 Found block with client 3
+Client 5: Need to check other client's caches
+Master: For client 0 Found block with client 7
+Client 0: End time 817
+Client 9: Generated request for 50
+Client 9: Need to check other client's caches
+Client 9: Need to get the block from other clients of present
+0.0
+Client 6: Generated request for 14
+Client 7: Total requests: 1 Average time: 0.0
+Client 8: Time entires: 
+Master: For client 8 Found block with client 0
+Client 1: Block is not present in any client, need to check server cache
+Client 9: Block is not present in any client, need to check server cache
+Client 9: Block retrieved from server cache
+Client 9: End time 1017
+Client 5: Need to get the block from other clients of present
+Client 2: Block is not present in any client, need to check server cache
+Client 2: Block retrieved from server cache
+Client 2: End time 1117
+Client 4: End time 817
+Client 5: Block is not present in any client, need to check server cache
+Client 5: Block retrieved from server cache
+Client 5: End time 1217
+Client 1: Block retrieved from server cache
+Client 8: End time 817
+Client 8: Total requests: 0 Average time: NaN
+Client 6: Need to check other client's caches
+Client 6: Need to get the block from other clients of present
+Client 9: Time entires: Client 1: End time 1217
+200.0Master: For client 6 Found block with client 5
+Client 6: End time 1217
+
+Client 9: Total requests: 1 Average time: 200.0
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+MASTER: Total clients 10 avg time NaN average: NaN
+MASTER: STOPPED ALL THE CLIENTS
+Master: New end client number 13
+
+
+
+
+
+
+Master: Current client end 13
+Master: Current upper bound 62 total clients 13 cache size 4
+Client 0: Current upper bound 62 total clients 13 cache size 4
+Client 0: Cache: 36 11 29 59 
+Client 1: Current upper bound 62 total clients 13 cache size 4
+Client 1: Cache: 25 60 30 8 
+Client 2: Current upper bound 62 total clients 13 cache size 4
+Client 2: Cache: 30 52 58 36 
+Client 3: Current upper bound 62 total clients 13 cache size 4
+Client 3: Cache: 52 43 32 48 
+Client 4: Current upper bound 62 total clients 13 cache size 4
+Client 4: Cache: 10 15 17 19 
+Client 5: Current upper bound 62 total clients 13 cache size 4
+Client 5: Cache: 38 39 22 42 
+Client 6: Current upper bound 62 total clients 13 cache size 4
+Client 6: Cache: 17 8 19 62 
+Client 7: Current upper bound 62 total clients 13 cache size 4
+Client 7: Cache: 58 59 8 40 
+Client 8: Current upper bound 62 total clients 13 cache size 4
+Client 8: Cache: 44 62 8 13 
+Client 9: Current upper bound 62 total clients 13 cache size 4
+Client 9: Cache: 31 28 21 12 
+Client 10: Current upper bound 62 total clients 13 cache size 4
+Client 10: Cache: 25 34 4 8 
+Client 11: Current upper bound 62 total clients 13 cache size 4
+Client 11: Cache: 11 14 58 29 
+Client 12: Current upper bound 62 total clients 13 cache size 4
+Client 12: Cache: 29 38 52 61 
+Client 2: Generating request at time: 1236
+Client 2: Cache: Client 11: Generating request at time: 1236
+Client 11: Cache: Master: Current tick 139 other val 100
+Client 0: Time entires: Client 12: Generating request at time: 1236
+Client 12: Cache: 29 38 52 Client 0: Generating request at time: 1236
+Client 0: Cache: 36 Client 3: Generating request at time: 1236
+Client 10: Generating request at time: 1236
+Client 4: Generating request at time: 1236
+Client 4: Cache: Client 9: Generating request at time: 1236
+Client 9: Cache: 31 28 Client 7: Generating request at time: 1236
+Client 7: Cache: 58 59 8 40 
+Client 8: Generating request at time: 1236
+Client 8: Cache: Client 6: Generating request at time: 1236
+Client 6: Cache: 17 8 Client 5: Generating request at time: 1236
+Client 5: Cache: 38 39 22 42 
+Client 1: Generating request at time: 1236
+Client 1: Cache: 25 60 30 8 
+Client 5: Generated request for 40
+19 62 
+44 Client 7: Generated request for 28
+21 12 
+Client 9: Generated request for 53
+Client 9: Need to check other client's caches
+Client 9: Need to get the block from other clients of present
+10 Client 10: Cache: Client 3: Cache: 11 61 
+
+11 30 52 58 36 
+14 Client 0: Total requests: 0 Average time: NaN
+Client 1: Time entires: 
+Client 12: Generated request for 55
+Client 12: Need to check other client's caches
+Client 12: Need to get the block from other clients of present
+29 52 43 32 48 
+Client 3: Generated request for 10
+Client 3: Need to check other client's caches
+Client 3: Need to get the block from other clients of present
+Master: For client 3 Found block with client 4
+Client 3: End time 1236
+25 34 15 17 19 
+Client 4: Generated request for 58
+Client 9: Block is not present in any client, need to check server cache
+Client 9: Block retrieved from server cache
+Client 9: End time 1336
+Client 7: Need to check other client's caches
+Client 7: Need to get the block from other clients of present
+62 Master: For client 7 Found block with client 9
+Client 7: End time 1336
+Client 6: Generated request for 2
+Client 5: Need to check other client's caches
+Client 5: Need to get the block from other clients of present
+Client 1: Generated request for 46
+Client 1: Need to check other client's caches
+Master: For client 5 Found block with client 7
+Client 6: Need to check other client's caches
+Client 6: Need to get the block from other clients of present
+8 Client 4: Need to check other client's caches
+Client 4: Need to get the block from other clients of present
+4 59 
+Client 0: Generated request for 48
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 12: Block is not present in any client, need to check server cache
+Client 1: Total requests: 0 Average time: NaN
+Client 2: Time entires: 
+Client 2: Total requests: 0 Average time: NaN
+Client 3: Time entires: 58 29 
+Client 2: Generated request for 34
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 11: Generated request for 33
+0.0
+8 
+Master: For client 4 Found block with client 2
+Client 4: End time 1436
+13 
+Client 8: Generated request for 59
+Client 8: Need to check other client's caches
+Client 8: Need to get the block from other clients of present
+Client 6: Block is not present in any client, need to check server cache
+Client 5: End time 1336
+Client 1: Need to get the block from other clients of present
+Master: For client 2 Found block with client 10
+Client 10: Generated request for 40
+Client 2: End time 1536
+Client 10: Need to check other client's caches
+Master: For client 0 Found block with client 3
+Client 0: End time 1536
+Client 3: Total requests: 1 Average time: 0.0
+Client 4: Time entires: Client 11: Need to check other client's caches
+200.0
+Client 4: Total requests: 1 Average time: 200.0
+Client 5: Time entires: Master: For client 8 Found block with client 0
+Client 8: End time 1536
+Client 6: Block retrieved from server cache
+Client 6: End time 1536
+Client 1: Block is not present in any client, need to check server cache
+Client 1: Block retrieved from server cache
+Client 1: End time 1636
+Client 10: Need to get the block from other clients of present
+Client 12: Block retrieved from server cache
+Master: For client 10 Found block with client 7
+Client 10: End time 1636
+100.0Client 11: Need to get the block from other clients of present
+
+Client 12: End time 1636
+Client 5: Total requests: 1 Average time: 100.0
+Client 6: Time entires: Client 11: Block is not present in any client, need to check server cache
+Client 11: Block retrieved from server cache
+Client 11: End time 1736
+300.0
+Client 6: Total requests: 1 Average time: 300.0
+Client 7: Time entires: 100.0
+Client 7: Total requests: 1 Average time: 100.0
+Client 8: Time entires: 300.0
+Client 8: Total requests: 1 Average time: 300.0
+Client 9: Time entires: 100.0
+Client 9: Total requests: 1 Average time: 100.0
+Client 10: Time entires: 400.0
+Client 10: Total requests: 1 Average time: 400.0
+Client 11: Time entires: 500.0
+Client 11: Total requests: 1 Average time: 500.0
+Client 12: Time entires: 400.0
+Client 12: Total requests: 1 Average time: 400.0
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+MASTER: Total clients 13 avg time NaN average: NaN
+MASTER: STOPPED ALL THE CLIENTS
+Master: New end client number 16
+
+
+
+
+
+
+Master: Current client end 16
+Master: Current upper bound 74 total clients 16 cache size 4
+Client 0: Current upper bound 74 total clients 16 cache size 4
+Client 0: Cache: 29 53 48 74 
+Client 1: Current upper bound 74 total clients 16 cache size 4
+Client 1: Cache: 26 27 17 55 
+Client 2: Current upper bound 74 total clients 16 cache size 4
+Client 2: Cache: 31 46 66 55 
+Client 3: Current upper bound 74 total clients 16 cache size 4
+Client 3: Cache: 73 32 2 7 
+Client 4: Current upper bound 74 total clients 16 cache size 4
+Client 4: Cache: 45 6 53 43 
+Client 5: Current upper bound 74 total clients 16 cache size 4
+Client 5: Cache: 4 58 2 72 
+Client 6: Current upper bound 74 total clients 16 cache size 4
+Client 6: Cache: 61 56 28 26 
+Client 7: Current upper bound 74 total clients 16 cache size 4
+Client 7: Cache: 66 10 17 61 
+Client 8: Current upper bound 74 total clients 16 cache size 4
+Client 8: Cache: 48 27 36 62 
+Client 9: Current upper bound 74 total clients 16 cache size 4
+Client 9: Cache: 64 24 26 25 
+Client 10: Current upper bound 74 total clients 16 cache size 4
+Client 10: Cache: 47 69 48 57 
+Client 11: Current upper bound 74 total clients 16 cache size 4
+Client 11: Cache: 35 7 4 11 
+Client 12: Current upper bound 74 total clients 16 cache size 4
+Client 12: Cache: 36 33 74 12 
+Client 13: Current upper bound 74 total clients 16 cache size 4
+Client 13: Cache: 13 69 47 50 
+Client 14: Current upper bound 74 total clients 16 cache size 4
+Client 14: Cache: 38 5 15 59 
+Client 15: Current upper bound 74 total clients 16 cache size 4
+Client 15: Cache: 41 47 40 45 
+Client 1: Generating request at time: 1756
+Client 1: Cache: Client 2: Generating request at time: 1756
+Client 2: Cache: Client 8: Generating request at time: 1756
+Client 8: Cache: Client 10: Generating request at time: 1756
+Client 10: Cache: 47 69 48 57 
+26 Client 9: Generating request at time: 1756
+Client 9: Cache: 64 24 26 25 Client 7: Generating request at time: 1756
+Client 7: Cache: 66 10 17 61 
+Client 7: Generated request for 72
+Client 7: Need to check other client's caches
+Client 7: Need to get the block from other clients of present
+Client 6: Generating request at time: 1756
+Client 6: Cache: 61 56 28 26 
+Client 6: Generated request for 36
+Client 6: Need to check other client's caches
+Client 6: Need to get the block from other clients of present
+Client 5: Generating request at time: 1756
+Client 5: Cache: Client 0: Generating request at time: 1756
+Client 0: Cache: Client 4: Generating request at time: 1756
+Client 4: Cache: 45 6 Client 3: Generating request at time: 1756
+Client 3: Cache: 73 32 2 53 43 29 4 Master: For client 7 Found block with client 5
+
+Master: For client 6 Found block with client 8
+Client 6: End time 1756
+27 Client 10: Generated request for 21
+48 27 36 62 
+Client 8: Generated request for 7
+Client 8: Need to check other client's caches
+Client 8: Need to get the block from other clients of present
+Client 12: Generating request at time: 1756
+Client 12: Cache: 36 33 74 12 
+Client 12: Generated request for 2
+Client 12: Need to check other client's caches
+Client 12: Need to get the block from other clients of present
+Client 14: Generating request at time: 1756
+Client 14: Cache: Client 11: Generating request at time: 1756
+Client 11: Cache: Client 13: Generating request at time: 1756
+Client 13: Cache: 13 69 47 50 
+Client 13: Generated request for 16
+Client 13: Need to check other client's caches
+Client 13: Need to get the block from other clients of present
+Master: Current tick 139 other val 100
+Client 15: Generating request at time: 1756
+Client 15: Cache: 41 47 40 45 
+Client 15: Generated request for 12
+Client 15: Need to check other client's caches
+Client 15: Need to get the block from other clients of present
+31 46 Client 0: Time entires: 
+35 7 4 11 38 5 15 59 
+Master: For client 8 Found block with client 3
+Client 10: Need to check other client's caches
+Client 10: Need to get the block from other clients of present
+17 55 
+Client 1: Generated request for 17
+Client 1: I have the block
+Client 1: End time 1756
+Client 9: Generated request for 70
+Client 7: End time 1756
+58 53 
+Client 4: Generated request for 41
+Client 4: Need to check other client's caches
+7 
+Client 3: Generated request for 22
+Client 3: Need to check other client's caches
+Client 3: Need to get the block from other clients of present
+Client 4: Need to get the block from other clients of present
+48 74 
+Client 0: Generated request for 23
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+2 72 
+Client 5: Generated request for 8
+Client 5: Need to check other client's caches
+Client 5: Need to get the block from other clients of present
+Client 9: Need to check other client's caches
+Master: For client 15 Found block with client 12
+Client 15: End time 1756
+Client 8: End time 1756
+Client 14: Generated request for 25
+Client 14: Need to check other client's caches
+
+Client 0: Total requests: 0 Average time: NaN
+Client 1: Time entires: 66 55 
+Client 2: Generated request for 41
+Client 11: Generated request for 18
+Client 11: Need to check other client's caches
+Client 11: Need to get the block from other clients of present
+Client 14: Need to get the block from other clients of present
+Master: For client 12 Found block with client 3
+Client 12: End time 1756
+Master: For client 14 Found block with client 9
+Client 13: Block is not present in any client, need to check server cache
+Client 9: Need to get the block from other clients of present
+Master: For client 4 Found block with client 15
+Client 4: End time 1856
+Client 3: Block is not present in any client, need to check server cache
+Client 9: Block is not present in any client, need to check server cache
+Client 0: Block is not present in any client, need to check server cache
+Client 0: Block retrieved from server cache
+Client 0: End time 2156
+Client 5: Block is not present in any client, need to check server cache
+Client 5: Block retrieved from server cache
+Client 13: Block retrieved from server cache
+Client 13: End time 2256
+Client 11: Block is not present in any client, need to check server cache
+Client 11: Block retrieved from server cache
+Client 11: End time 2356
+Client 14: End time 1756
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+0.0
+Client 1: Total requests: 1 Average time: 0.0
+Client 2: Time entires: 
+Client 2: Total requests: 0 Average time: NaN
+Client 3: Time entires: 
+Master: For client 2 Found block with client 15
+Client 2: End time 2356
+Client 5: End time 2256
+Client 9: Block retrieved from server cache
+Client 9: End time 2356
+Client 3: Block retrieved from server cache
+Client 3: End time 2356
+Client 10: Block is not present in any client, need to check server cache
+Client 10: Block retrieved from server cache
+Client 10: End time 2456
+Client 3: Total requests: 0 Average time: NaN
+Client 4: Time entires: 100.0
+Client 4: Total requests: 1 Average time: 100.0
+Client 5: Time entires: 500.0
+Client 5: Total requests: 1 Average time: 500.0
+Client 6: Time entires: 0.0
+Client 6: Total requests: 1 Average time: 0.0
+Client 7: Time entires: 0.0
+Client 7: Total requests: 1 Average time: 0.0
+Client 8: Time entires: 0.0
+Client 8: Total requests: 1 Average time: 0.0
+Client 9: Time entires: 600.0
+Client 9: Total requests: 1 Average time: 600.0
+Client 10: Time entires: 700.0
+Client 10: Total requests: 1 Average time: 700.0
+Client 11: Time entires: 600.0
+Client 11: Total requests: 1 Average time: 600.0
+Client 12: Time entires: 0.0
+Client 12: Total requests: 1 Average time: 0.0
+Client 13: Time entires: 500.0
+Client 13: Total requests: 1 Average time: 500.0
+Client 14: Time entires: 0.0
+Client 14: Total requests: 1 Average time: 0.0
+Client 15: Time entires: 0.0
+Client 15: Total requests: 1 Average time: 0.0
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+MASTER: Total clients 16 avg time NaN average: NaN
+Client 6: Generating request at time: 2475
+Client 6: Cache: 61 56 28 26 
+Client 6: Generated request for 69
+Client 6: Need to check other client's caches
+Client 6: Need to get the block from other clients of present
+Master: For client 6 Found block with client 10
+Client 6: End time 2475
+MASTER: STOPPED ALL THE CLIENTS
+Master: New end client number 19
+
+
+
+
+
+
+Master: Current client end 19
+Master: Current upper bound 86 total clients 19 cache size 4
+Client 0: Current upper bound 86 total clients 19 cache size 4
+Client 0: Cache: 23 8 63 75 
+Client 1: Current upper bound 86 total clients 19 cache size 4
+Client 1: Cache: 40 36 56 84 
+Client 2: Current upper bound 86 total clients 19 cache size 4
+Client 2: Cache: 41 2 81 75 
+Client 3: Current upper bound 86 total clients 19 cache size 4
+Client 3: Cache: 73 37 48 9 
+Client 4: Current upper bound 86 total clients 19 cache size 4
+Client 4: Cache: 7 13 32 45 
+Client 5: Current upper bound 86 total clients 19 cache size 4
+Client 5: Cache: 29 36 81 82 
+Client 6: Current upper bound 86 total clients 19 cache size 4
+Client 6: Cache: 26 18 41 81 
+Client 7: Current upper bound 86 total clients 19 cache size 4
+Client 7: Cache: 59 2 85 73 
+Client 8: Current upper bound 86 total clients 19 cache size 4
+Client 8: Cache: 33 25 3 28 
+Client 9: Current upper bound 86 total clients 19 cache size 4
+Client 9: Cache: 12 29 36 32 
+Client 10: Current upper bound 86 total clients 19 cache size 4
+Client 10: Cache: 50 44 21 81 
+Client 11: Current upper bound 86 total clients 19 cache size 4
+Client 11: Cache: 55 73 13 31 
+Client 12: Current upper bound 86 total clients 19 cache size 4
+Client 12: Cache: 85 48 18 66 
+Client 13: Current upper bound 86 total clients 19 cache size 4
+Client 13: Cache: 77 33 82 35 
+Client 14: Current upper bound 86 total clients 19 cache size 4
+Client 14: Cache: 68 51 79 27 
+Client 15: Current upper bound 86 total clients 19 cache size 4
+Client 15: Cache: 37 13 60 25 
+Client 16: Current upper bound 86 total clients 19 cache size 4
+Client 16: Cache: 83 23 1 66 
+Client 17: Current upper bound 86 total clients 19 cache size 4
+Client 17: Cache: 46 55 56 50 
+Client 18: Current upper bound 86 total clients 19 cache size 4
+Client 18: Cache: 22 80 4 15 
+Client 0: Generating request at time: 2495
+Client 0: Cache: 23 8 Client 7: Generating request at time: 2495
+Client 7: Cache: Client 9: Generating request at time: 2495
+Client 9: Cache: 12 29 36 32 
+Client 9: Generated request for 10
+Client 9: Need to check other client's caches
+Client 9: Need to get the block from other clients of present
+Client 11: Generating request at time: 2495
+Client 9: Block is not present in any client, need to check server cache
+Client 9: Block retrieved from server cache
+Client 9: End time 2595
+Client 14: Generating request at time: 2595
+Client 14: Cache: Client 17: Generating request at time: 2595
+Client 17: Cache: Client 4: Generating request at time: 2495
+Client 4: Cache: 7 13 32 45 
+Client 4: Generated request for 58
+Client 4: Need to check other client's caches
+Client 4: Need to get the block from other clients of present
+Client 3: Generating request at time: 2495
+Client 3: Cache: 73 37 48 Client 2: Generating request at time: 2495
+Client 2: Cache: 41 2 81 75 
+Client 2: Generated request for 13
+Client 1: Generating request at time: 2495
+Client 1: Cache: 40 36 56 84 
+Client 1: Generated request for 77
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+9 
+Client 3: Generated request for 19
+Client 4: Block is not present in any client, need to check server cache
+46 55 56 50 
+Client 17: Generated request for 23
+Client 17: Need to check other client's caches
+Client 17: Need to get the block from other clients of present
+Client 10: Generating request at time: 2495
+Client 10: Cache: Client 18: Generating request at time: 2595
+Client 18: Cache: 22 80 4 15 
+Client 18: Generated request for 30
+Client 18: Need to check other client's caches
+Client 18: Need to get the block from other clients of present
+68 51 Client 16: Generating request at time: 2595
+Client 16: Cache: 83 23 1 66 
+Client 16: Generated request for 24
+Client 16: Need to check other client's caches
+Client 16: Need to get the block from other clients of present
+Client 15: Generating request at time: 2595
+Client 15: Cache: 37 13 60 25 
+Client 15: Generated request for 83
+Client 15: Need to check other client's caches
+Client 15: Need to get the block from other clients of present
+Client 13: Generating request at time: 2595
+Client 13: Cache: 77 33 82 35 
+Client 13: Generated request for 82
+Client 13: I have the block
+Client 13: End time 2695
+Client 12: Generating request at time: 2595
+Client 11: Cache: 55 73 13 31 
+Client 11: Generated request for 73
+Client 11: I have the block
+Client 11: End time 2695
+59 2 85 73 
+Client 7: Generated request for 51
+Client 7: Need to check other client's caches
+Client 7: Need to get the block from other clients of present
+Client 8: Generating request at time: 2495
+Client 8: Cache: 33 25 3 28 
+Client 8: Generated request for 29
+Client 8: Need to check other client's caches
+Client 8: Need to get the block from other clients of present
+63 75 
+Client 0: Generated request for 80
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 6: Generating request at time: 2495
+Client 6: Cache: 26 18 41 81 
+Client 6: Generated request for 43
+Client 6: Need to check other client's caches
+Client 5: Generating request at time: 2495
+Client 5: Cache: 29 36 81 82 
+Client 5: Generated request for 11
+Client 5: Need to check other client's caches
+Client 5: Need to get the block from other clients of present
+Client 6: Need to get the block from other clients of present
+Client 12: Cache: 85 48 18 66 
+Client 12: Generated request for 28
+Client 12: Need to check other client's caches
+Client 12: Need to get the block from other clients of present
+79 27 
+Client 14: Generated request for 56
+Client 14: Need to check other client's caches
+Client 14: Need to get the block from other clients of present
+50 44 21 81 
+Client 10: Generated request for 4
+Client 10: Need to check other client's caches
+Client 10: Need to get the block from other clients of present
+Client 3: Need to check other client's caches
+Client 3: Need to get the block from other clients of present
+Master: For client 2 Found block with client 4
+Client 2: End time 2695
+Client 3: Block is not present in any client, need to check server cache
+Master: For client 10 Found block with client 18
+Client 10: End time 2795
+Master: For client 14 Found block with client 1
+Client 14: End time 2795
+Master: For client 12 Found block with client 8
+Client 1: Need to check other client's caches
+Client 6: Block is not present in any client, need to check server cache
+Client 6: Block retrieved from server cache
+Client 6: End time 2895
+Client 12: End time 2795
+Master: For client 0 Found block with client 18
+Client 0: End time 2895
+Client 5: Block is not present in any client, need to check server cache
+Client 5: Block retrieved from server cache
+Client 5: End time 2995
+Master: For client 8 Found block with client 5
+Client 8: End time 2995
+Client 1: Need to get the block from other clients of present
+Master: For client 1 Found block with client 13
+Client 1: End time 2995
+Master: For client 7 Found block with client 14
+Client 7: End time 2995
+Master: Current tick 139 other val 100
+Client 0: Time entires: Master: For client 15 Found block with client 16
+400.0
+Client 16: Block is not present in any client, need to check server cache
+Client 16: Block retrieved from server cache
+Client 16: End time 3095
+Client 15: End time 2995
+Master: For client 17 Found block with client 0
+Client 17: End time 3095
+Client 18: Block is not present in any client, need to check server cache
+Client 18: Block retrieved from server cache
+Client 18: End time 3195
+Client 4: Block retrieved from server cache
+Client 4: End time 3195
+Client 0: Total requests: 1 Average time: 400.0
+Client 1: Time entires: Client 3: Block retrieved from server cache
+Client 3: End time 3195
+500.0
+Client 1: Total requests: 1 Average time: 500.0
+Client 2: Time entires: 200.0
+Client 2: Total requests: 1 Average time: 200.0
+Client 3: Time entires: 700.0
+Client 3: Total requests: 1 Average time: 700.0
+Client 4: Time entires: 700.0
+Client 4: Total requests: 1 Average time: 700.0
+Client 5: Time entires: 500.0
+Client 5: Total requests: 1 Average time: 500.0
+Client 6: Time entires: 400.0
+Client 6: Total requests: 1 Average time: 400.0
+Client 7: Time entires: 500.0
+Client 7: Total requests: 1 Average time: 500.0
+Client 8: Time entires: 500.0
+Client 8: Total requests: 1 Average time: 500.0
+Client 9: Time entires: 100.0
+Client 9: Total requests: 1 Average time: 100.0
+Client 10: Time entires: 300.0
+Client 10: Total requests: 1 Average time: 300.0
+Client 11: Time entires: 200.0
+Client 11: Total requests: 1 Average time: 200.0
+Client 12: Time entires: 200.0
+Client 12: Total requests: 1 Average time: 200.0
+Client 13: Time entires: 100.0
+Client 13: Total requests: 1 Average time: 100.0
+Client 14: Time entires: 200.0
+Client 14: Total requests: 1 Average time: 200.0
+Client 15: Time entires: 400.0
+Client 15: Total requests: 1 Average time: 400.0
+Client 16: Time entires: 500.0
+Client 16: Total requests: 1 Average time: 500.0
+Client 17: Time entires: 500.0
+Client 17: Total requests: 1 Average time: 500.0
+Client 18: Time entires: 600.0
+Client 18: Total requests: 1 Average time: 600.0
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+MASTER: Total clients 19 avg time 7500.0 average: 394.7368421052632
+Client 13: Generating request at time: 3214
+Client 1: Generating request at time: 3214
+Client 1: Cache: Client 8: Generating request at time: 3214
+Client 8: Cache: 33 25 3 28 
+Client 8: Generated request for 40
+Client 8: Need to check other client's caches
+Client 8: Need to get the block from other clients of present
+Client 0: Generating request at time: 3214
+Client 0: Cache: 23 8 63 75 
+Client 0: Generated request for 24
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 5: Generating request at time: 3214
+Client 5: Cache: 29 36 81 82 
+Client 5: Generated request for 23
+Client 2: Generating request at time: 3214
+Client 2: Cache: 41 Client 12: Generating request at time: 3214
+Client 12: Cache: 85 48 18 Client 6: Generating request at time: 3214
+Client 14: Generating request at time: 3214
+Client 14: Cache: 68 51 79 27 
+Client 14: Generated request for 3
+Client 14: Need to check other client's caches
+Client 14: Need to get the block from other clients of present
+Client 10: Generating request at time: 3214
+Client 11: Generating request at time: 3214
+Client 11: Cache: 55 73 13 31 
+Client 11: Generated request for 37
+Client 11: Need to check other client's caches
+Client 11: Need to get the block from other clients of present
+Client 9: Generating request at time: 3214
+Client 9: Cache: 12 29 36 32 
+Client 9: Generated request for 71
+Client 9: Need to check other client's caches
+Client 9: Need to get the block from other clients of present
+Client 10: Cache: 50 44 21 81 
+Client 10: Generated request for 39
+Client 10: Need to check other client's caches
+Client 10: Need to get the block from other clients of present
+Client 6: Cache: 26 18 41 81 
+66 
+Client 12: Generated request for 80
+Client 12: Need to check other client's caches
+Client 12: Need to get the block from other clients of present
+2 81 75 
+Client 2: Generated request for 82
+Client 5: Need to check other client's caches
+Master: For client 8 Found block with client 1
+40 36 56 84 
+Client 1: Generated request for 40
+Client 1: I have the block
+Client 1: End time 3214
+Client 13: Cache: Client 7: Generating request at time: 3214
+Client 7: Cache: 59 77 Master: For client 12 Found block with client 18
+Client 8: End time 3214
+Client 5: Need to get the block from other clients of present
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 6: Generated request for 7
+Client 6: Need to check other client's caches
+Master: For client 11 Found block with client 3
+Client 11: End time 3214
+Client 9: Block is not present in any client, need to check server cache
+Client 10: Block is not present in any client, need to check server cache
+Client 12: End time 3214
+33 82 35 
+2 85 73 
+Client 13: Generated request for 40
+Client 13: Need to check other client's caches
+Client 13: Need to get the block from other clients of present
+Master: For client 14 Found block with client 8
+Client 6: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Client 14: End time 3414
+Client 7: Generated request for 12
+Client 7: Need to check other client's caches
+Client 7: Need to get the block from other clients of present
+Master: For client 13 Found block with client 1
+Client 13: End time 3514
+Client 10: Block retrieved from server cache
+Client 10: End time 3514
+Master: For client 2 Found block with client 5
+Client 9: Block retrieved from server cache
+Client 9: End time 3514
+Master: For client 5 Found block with client 0
+Client 2: End time 3514
+Master: For client 7 Found block with client 9
+Client 5: End time 3514
+Master: For client 6 Found block with client 4
+Client 6: End time 3514
+Client 0: Block retrieved from server cache
+Client 7: End time 3514
+Client 0: End time 3514
+MASTER: STOPPED ALL THE CLIENTS
+Master: New end client number 22

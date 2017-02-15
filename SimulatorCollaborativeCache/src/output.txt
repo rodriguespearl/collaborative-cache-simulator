@@ -1,0 +1,42 @@
+Master: Current client end 1
+Current upper bound 12 total clients 1 cache size 2
+0: Cache: 1 11 
+Current tick 0 other val 100
+0: Generating request at time 19
+0: Cache: 1 11 
+0: Generated request for 6
+0: Need to check other client's caches
+0: Need to get the block from other clients of present
+0: Block is not present in any client, need to check server cache
+0: End time 119
+GOING TO ATTEMPT STOPPING CLIENTS
+0: Generating request at time 138
+0: Cache: 1 11 
+0: Generated request for 2
+0: Need to check other client's caches
+0: Need to get the block from other clients of present
+0: Block is not present in any client, need to check server cache
+0: End time 238
+Master: Stopped all clients
+Master: New end client number 2
+Master: Current client end 2
+Current upper bound 14 total clients 2 cache size 2
+0: Cache: 6 11 
+Current upper bound 14 total clients 2 cache size 2
+1: Cache: 3 2 
+Current tick 119 other val 100
+GOING TO ATTEMPT STOPPING CLIENTS
+0: Generating request at time 257
+1: Generating request at time 257
+1: Cache: 3 2 
+1: Generated request for 11
+0: Cache: 1: Need to check other client's caches
+6 1: Need to get the block from other clients of present
+11 
+Found block with client 0
+0: Generated request for 11
+1: End time 258
+0: I have the block
+0: Got block from self at 258
+Master: Stopped all clients
+Master: New end client number 3

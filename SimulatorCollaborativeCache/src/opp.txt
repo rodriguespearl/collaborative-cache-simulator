@@ -1,0 +1,616 @@
+
+
+
+
+
+
+Master: Current client end 1
+Server: SERVER CACHE: 
+111 300 118 
+Client 0: Current upper bound 500 total clients 1 cache size 3
+Client 0: Cache: 463 485 303 
+Client 0: Generating request at time: 19
+Client 0: Cache: 463 485 303 
+Client 0: Generated request for 236
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 463
+Client 0: End time 3019
+Client 0: Generating request at time: 3038
+Client 0: Cache: 485 303 236 
+Client 0: Generated request for 486
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 485
+Client 0: End time 6038
+Client 0: Generating request at time: 6058
+Client 0: Cache: 303 236 486 
+Client 0: Generated request for 287
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 303
+Client 0: End time 9058
+Client 0: Generating request at time: 9077
+Client 0: Cache: 236 486 287 
+Client 0: Generated request for 368
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 236
+Client 0: End time 12077
+Client 0: Generating request at time: 12096
+Client 0: Cache: 486 287 368 
+Client 0: Generated request for 304
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 486
+Client 0: End time 15096
+Client 0: Generating request at time: 15116
+Client 0: Cache: 287 368 304 
+Client 0: Generated request for 55
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 287
+Client 0: End time 18116
+Client 0: Generating request at time: 18135
+Client 0: Cache: 368 304 55 
+Client 0: Generated request for 167
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 368
+Client 0: End time 21135
+Client 0: Generating request at time: 21154
+Client 0: Cache: 304 55 167 
+Client 0: Generated request for 85
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 304
+Client 0: End time 24154
+Client 0: Generating request at time: 24174
+Client 0: Cache: 55 167 85 
+Client 0: Generated request for 133
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 55
+Client 0: End time 27174
+Client 0: Generating request at time: 27193
+Client 0: Cache: 167 85 133 
+Client 0: Generated request for 318
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 167
+Client 0: End time 30193
+MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+Client 0: Generating request at time: 30213
+Client 0: Cache: 85 133 318 
+Client 0: Generated request for 28
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 85
+Client 0: End time 33213
+MASTER: STOPPED ALL THE CLIENTS AND CHECKING
+MASTER: CLIENT 0 IS ALIVE false
+Client 0: Time entires: 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 
+Client 0: Total requests: 11 Average time: 3000.0
+MASTER: Total clients 1 avg time 3000.0 average: 3000.0
+Master: New end client number 3
+
+
+
+
+
+
+Master: Current client end 3
+Server: SERVER CACHE: 
+386 267 406 
+Client 0: Current upper bound 500 total clients 3 cache size 3
+Client 0: Cache: 350 254 69 
+Client 1: Current upper bound 500 total clients 3 cache size 3
+Client 1: Cache: 453 188 198 
+Client 2: Current upper bound 500 total clients 3 cache size 3
+Client 2: Cache: 358 76 326 
+Client 0: Generating request at time: 0
+Client 0: Cache: Client 1: Generating request at time: 0
+Client 1: Cache: Client 2: Generating request at time: 0
+Client 2: Cache: 453 188 198 
+350 Client 1: Generated request for 105
+358 Client 1: Need to check other client's caches
+254 69 
+Client 1: Need to get the block from other clients of present
+76 Client 1: Block is not present in any client, need to check server cache
+Client 0: Generated request for 116
+Server: I don't have the block
+326 
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 0: Need to check other client's caches
+Removed 453
+Client 2: Generated request for 198
+Client 1: End time 3000
+Client 0: Need to get the block from other clients of present
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Master: For client 2 Found block with client 1
+Server: I don't have the block
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 350
+Client 0: End time 3000
+Removed 358
+Client 2: End time 0
+Client 1: Generating request at time: 3000
+Client 1: Cache: Client 0: Generating request at time: 3000
+Client 2: Generating request at time: 0
+Client 2: Cache: Client 0: Cache: 188 254 76 326 198 
+69 198 105 
+116 
+Client 2: Generated request for 57
+Client 0: Generated request for 222
+Client 1: Generated request for 214
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 2: Need to check other client's caches
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Removed 254
+Client 2: Need to get the block from other clients of present
+Client 0: End time 6000
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 1: Block retrieved from server disk
+Removed 76
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 2: End time 3000
+Removed 188
+Client 1: End time 6000
+Client 0: Generating request at time: 6000
+Client 0: Cache: 69 116 222 
+Client 0: Generated request for 332
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 69
+Client 2: Generating request at time: 3000
+Client 0: End time 9000
+Client 2: Cache: Client 1: Generating request at time: 6000
+Client 1: Cache: 326 198 198 105 57 
+214 
+Client 2: Generated request for 118
+Client 1: Generated request for 48
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Client 2: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 326
+Removed 198
+Client 1: End time 9000
+Client 2: End time 6000
+Client 0: Generating request at time: 9000
+Client 0: Cache: Client 2: Generating request at time: 6000
+Client 2: Cache: 198 57 118 
+Client 1: Generating request at time: 9000
+Client 2: Generated request for 223
+116 Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 1: Cache: 105 Client 2: Block is not present in any client, need to check server cache
+222 Server: I don't have the block
+214 Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+332 
+Removed 198
+48 
+Client 1: Generated request for 496
+Client 2: End time 9000
+Client 0: Generated request for 386
+Client 0: Need to check other client's caches
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Client 0: Need to get the block from other clients of present
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block is not present in any client, need to check server cache
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 105
+Client 1: End time 12000
+Server: I have the block
+Client 0: Block retrieved from server cache
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 116
+Client 0: End time 10000
+Client 2: Generating request at time: 9000
+Client 2: Cache: Client 0: Generating request at time: 10000
+Client 1: Generating request at time: 12000
+Client 0: Cache: 57 222 118 Client 1: Cache: 214 48 496 
+223 
+332 386 
+Client 2: Generated request for 459
+Client 1: Generated request for 430
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 0: Generated request for 364
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 1: Need to check other client's caches
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block is not present in any client, need to check server cache
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 222
+Client 1: Need to get the block from other clients of present
+Client 0: End time 13000
+Server: I don't have the block
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 57
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: End time 12000
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 214
+Client 1: End time 15000
+Client 2: Generating request at time: 12000
+Client 2: Cache: Client 1: Generating request at time: 15000
+118 Client 0: Generating request at time: 13000
+Client 0: Cache: 223 459 
+Client 1: Cache: Client 2: Generated request for 310
+332 Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+386 48 364 
+Client 2: Block is not present in any client, need to check server cache
+Client 0: Generated request for 2
+496 Client 0: Need to check other client's caches
+Server: I don't have the block
+Client 0: Need to get the block from other clients of present
+430 
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 118
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 1: Generated request for 269
+Removed 332
+Client 2: End time 15000
+Client 0: End time 16000
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 48
+Client 1: End time 18000
+Client 1: Generating request at time: 18000
+Client 1: Cache: Client 0: Generating request at time: 16000
+Client 0: Cache: Client 2: Generating request at time: 15000
+Client 2: Cache: 386 364 2 
+496 430 Client 0: Generated request for 276
+223 459 310 
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+269 
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Generated request for 213
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 1: Generated request for 168
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Removed 386
+Client 0: End time 19000
+Client 2: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 223
+Removed 496
+Client 2: End time 18000
+Client 1: End time 21000
+Client 2: Generating request at time: 18000
+Client 2: Cache: Client 0: Generating request at time: 19000
+Client 0: Cache: Client 1: Generating request at time: 21000
+364 459 2 Client 1: Cache: 430 269 168 
+276 
+310 Client 0: Generated request for 468
+Client 1: Generated request for 439
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+213 
+Client 2: Generated request for 257
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Server: I don't have the block
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 430
+Client 1: End time 24000
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 459
+Client 2: End time 21000
+Removed 364
+Client 0: End time 22000
+Client 2: Generating request at time: 21000
+Client 2: Cache: Client 0: Generating request at time: 22000
+Client 1: Generating request at time: 24000
+Client 1: Cache: 269 168 439 
+Client 0: Cache: 310 2 Client 1: Generated request for 407
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+276 468 
+213 257 
+Client 0: Generated request for 233
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Removed 269
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 2: Generated request for 441
+Client 2: Need to check other client's caches
+Removed 2
+Client 1: End time 27000
+Client 0: End time 25000
+Client 2: Need to get the block from other clients of present
+Client 2: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 310
+Client 2: End time 24000
+Client 2: Generating request at time: 24000
+Client 0: Generating request at time: 25000
+Client 0: Cache: Client 1: Generating request at time: 27000
+Client 1: Cache: 276 468 Client 2: Cache: 233 
+168 Client 0: Generated request for 93
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+213 Client 0: Block is not present in any client, need to check server cache
+439 407 
+Server: I don't have the block
+257 Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 1: Generated request for 104
+Removed 276
+441 
+Client 2: Generated request for 457
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 2: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block retrieved from server disk
+Client 2: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 213
+Client 2: End time 27000
+Client 0: End time 28000
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 168
+Client 1: End time 30000
+Client 0: Generating request at time: 28000
+Client 0: Cache: MASTER: GOING TO ATTEMPT STOPPING CLIENTS
+Client 2: Generating request at time: 27000
+Client 1: Generating request at time: 30000
+Client 1: Cache: Client 2: Cache: 468 257 439 407 441 457 
+Client 2: Generated request for 492
+Client 2: Need to check other client's caches
+Client 2: Need to get the block from other clients of present
+Client 2: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 2: Block retrieved from server disk
+233 Client 2: Adding the block to the cache
+93 
+104 
+Client 0: Generated request for 440
+Cache is full, need to remove some items
+Removing whoever is in front
+Client 0: Need to check other client's caches
+Client 0: Need to get the block from other clients of present
+Client 0: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 0: Block retrieved from server disk
+Client 0: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 468
+Client 1: Generated request for 437
+Client 0: End time 31000
+Removed 257
+Client 1: Need to check other client's caches
+Client 1: Need to get the block from other clients of present
+Client 2: End time 30000
+Client 1: Block is not present in any client, need to check server cache
+Server: I don't have the block
+Client 1: Block retrieved from server disk
+Client 1: Adding the block to the cache
+Cache is full, need to remove some items
+Removing whoever is in front
+Removed 439
+Client 1: End time 33000
+MASTER: STOPPED ALL THE CLIENTS AND CHECKING
+MASTER: CLIENT 0 IS ALIVE false
+MASTER: CLIENT 1 IS ALIVE false
+MASTER: CLIENT 2 IS ALIVE false
+Client 0: Time entires: 3000.0 3000.0 3000.0 1000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 
+Client 0: Total requests: 11 Average time: 2818.181818181818
+Client 1: Time entires: 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 
+Client 1: Total requests: 11 Average time: 3000.0
+Client 2: Time entires: 0.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 3000.0 
+Client 2: Total requests: 11 Average time: 2727.2727272727275
+MASTER: Total clients 3 avg time 8545.454545454546 average: 2848.4848484848485
+Master: New end client number 5
