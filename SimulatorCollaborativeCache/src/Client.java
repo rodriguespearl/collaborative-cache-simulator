@@ -9,16 +9,23 @@ public class Client extends Thread{
 	int cacheSize;
 	int totalClients;
 	Random random;
-	int upperBoundOnBlockGeneration = 500;
+	int upperBoundOnBlockGeneration;
 	boolean needBlock;
 	int blockNeeded;
 	Master master;
 	Tick tickObj;
 	ArrayList<Double> time;
-	FIFO cacheAlgorithm;
+	//FIFO cacheAlgorithm;
+	String algorithm;
+	CacheReplacementAlgorithm algorithmObj;
+	String name;
+	
+	static String infoLevel = "INFO";
+	static String severeLevel = "SEVERE";
 	
 	
-	public Client(int id, ArrayList<Integer> cache, int cacheSize, Master m, int totalClients){
+	public Client(int id, ArrayList<Integer> cache, int cacheSize, Master m, int totalClients, String runningAlgo){
+		this.name = "CLIENT" + " " + id;
 		this.cache = cache;
 		this.cacheSize = cacheSize;
 		this.running = true;
@@ -26,12 +33,40 @@ public class Client extends Thread{
 		this.id = id;
 		master = m;
 		this.totalClients = totalClients;
-		upperBoundOnBlockGeneration = 500;
+		this.upperBoundOnBlockGeneration = Constants.upperBoundOnBlockGeneration;
+		//upperBoundOnBlockGeneration = 500;
 		//upperBoundOnBlockGeneration = totalClients * cacheSize;
 		needBlock = false;
 		time = new ArrayList<>();
 		
-		cacheAlgorithm = new FIFO(this.cacheSize);
+		algorithm = runningAlgo;
+		algorithm = algorithm.toUpperCase();
+		
+		switch(algorithm){
+		case "FIFO":
+			algorithmObj = new FIFO(cacheSize, this.upperBoundOnBlockGeneration);
+			break;
+		case "LIFO":
+			algorithmObj = new LIFO(cacheSize, this.upperBoundOnBlockGeneration);
+			break;
+		case "LRU":
+			algorithmObj = new LRU(cacheSize, this.upperBoundOnBlockGeneration);
+			break;
+		case "MRU":
+			algorithmObj = new MRU(cacheSize, this.upperBoundOnBlockGeneration);
+			break;
+		case "RANDOM":
+			algorithmObj = new RANDOM(cacheSize, this.upperBoundOnBlockGeneration);
+			break;
+		default:
+			//System.out.println("CLIENT: INVALID ALGORITHM");
+			SimulatorLogger.writeLog(name, "INVALID ALGORITHM", severeLevel);
+			break;
+		}
+		
+		algorithmObj.initCache(id, cache); // method to initially fill the cache with random blocks
+		
+		//cacheAlgorithm = new FIFO(this.cacheSize);
 		
 		try{
 			tickObj = new Tick();
@@ -47,7 +82,7 @@ public class Client extends Thread{
 		this.id = id;
 		this.cache = cache;
 		this.totalClients = totalClients;
-		upperBoundOnBlockGeneration = 500;
+		//upperBoundOnBlockGeneration = 500;
 		//upperBoundOnBlockGeneration = totalClients * cacheSize;
 		needBlock = false;
 	}
@@ -60,33 +95,25 @@ public class Client extends Thread{
 		running = false;
 	}
 	
-	// method to initially fill the cache with random blocks
-	public void fillCache(){
-		//upperBoundOnBlockGeneration = (totalClients * cacheSize) + 10;
-		upperBoundOnBlockGeneration = 500;
-		System.out.println("Client "+ id + ": Current upper bound " + upperBoundOnBlockGeneration + " total clients " + totalClients + " cache size " + cacheSize);
-		int block;
-		//for ( int index = 0; index < cacheSize; index++ ){
-		while(cache.size() < cacheSize ){
-			block = random.nextInt(upperBoundOnBlockGeneration)+1;
-			if (!cache.contains(block)){
-				cache.add(block);
-			}
-		}
-	}
+	
 	
 	public void requestBlock(){
 		int requestBlock = random.nextInt(upperBoundOnBlockGeneration)+1;
-		System.out.println("Client "+ id + ": Generated request for " + requestBlock);
+		//System.out.println("Client "+ id + ": Generated request for " + requestBlock);
+		SimulatorLogger.writeLog(name, "Generated request for " + requestBlock, infoLevel);
 		
-		if ( cache.contains(requestBlock)){
-			System.out.println("Client "+ id + ": I have the block");
-			needBlock = false;
+		boolean foundBlock = algorithmObj.checkForBlock(cache, requestBlock);
+		
+		if (!foundBlock){
+			needBlock = true;
+			//System.out.println("Client "+ id + ": Need to check other client's caches");
+			SimulatorLogger.writeLog(name, "Need to check other client's caches", infoLevel);
+			setRequestBlock(requestBlock);
 		}
 		else{
-			System.out.println("Client "+ id + ": Need to check other client's caches");
-			needBlock = true;
-			setRequestBlock(requestBlock);
+			needBlock = false;
+			//System.out.println("Client "+ id + ": I have the block");
+			SimulatorLogger.writeLog(name, "I have the block", infoLevel);
 		}
 	}
 	
@@ -99,23 +126,24 @@ public class Client extends Thread{
 	}
 	
 	public void showCache(){
-		System.out.print("Client "+id + ": Cache: ");
+		/*System.out.print("Client "+id + ": Cache: ");
 		for( int index = 0; index < cacheSize; index++ ){
 			System.out.print(cache.get(index) + " ");
 		}
-		System.out.println();
+		System.out.println();*/
 	}
 	
 	public double avgTime(){
 		double avg = 0;
-		System.out.print("Client " + id + ": Time entires: ");
+		//System.out.print("Client " + id + ": Time entires: ");
 		for ( double num:time){
-			System.out.print(num+ " ");
+			//System.out.print(num+ " ");
 			avg += num;
 		}
 		avg/= time.size();
-		System.out.println();
-		System.out.println("Client " + id + ": Total requests: " + time.size() + " Average time: " + avg);
+		//System.out.println();
+		//System.out.println("Client " + id + ": Total requests: " + time.size() + " Average time: " + avg);
+		SimulatorLogger.writeLog(name, "Total requests: " + time.size() + " Average time: " + avg, infoLevel);
 		return avg;
 	}
 	
@@ -126,47 +154,58 @@ public class Client extends Thread{
 			try{
 				Thread.sleep(2000); // pausing the thread for a bit
 				startTime = tickObj.getTicker();
-				System.out.println("Client "+ id + ": Generating request at time: " + startTime);
-				showCache();
+				
+				//System.out.println("Client "+ id + ": Generating request at time: " + startTime);
+				SimulatorLogger.writeLog(name, "Generating request at time: " + startTime, infoLevel);
+				
+				//showCache();
 				requestBlock();
+				tickObj.increaseTickerBy(Constants.tick_increase_own_cache);
+				
 				if (needBlock){ //needBlock set only if the client does not have the block itself
-					System.out.println("Client "+ id + ": Need to get the block from other clients of present");
+					//System.out.println("Client "+ id + ": Need to get the block from other clients of present");
+					SimulatorLogger.writeLog(name, "Need to get the block from other clients of present", infoLevel);
+					
 					int request = Master.getBlockFromClientCache(id, blockNeeded);
+					tickObj.increaseTickerBy(Constants.tick_increase_other_client);
 					if ( request == -1 ){
-						System.out.println("Client "+ id + ": Block is not present in any client, need to check server cache");
-						tickObj.increaseTickerBy(1000);
-						//Tick.ticker += 1000;
-						//check server cache
+						//System.out.println("Client "+ id + ": Block is not present in any client, need to check server cache");
+						SimulatorLogger.writeLog(name, "Block is not present in any client, need to check server cache", infoLevel);
+						
+						tickObj.increaseTickerBy(Constants.tick_increase_server_cache);
 						
 						request = Master.checkForBlockFromServerCache(id, blockNeeded);
 						if ( request >= 0 ){
-							System.out.println("Client " + id + ": Block retrieved from server cache");
+							//System.out.println("Client " + id + ": Block retrieved from server cache");
+							SimulatorLogger.writeLog(name, "Block retrieved from server cache", infoLevel);
 						}
 						
 						//retrieve from server disk
 						else
 						{
 							//Tick.ticker += 2000; // adding more time for disk retrieval 
-							tickObj.increaseTickerBy(2000);
-							System.out.println("Client " + id + ": Block retrieved from server disk");
+							tickObj.increaseTickerBy(Constants.tick_increase_server_disk);
+							//System.out.println("Client " + id + ": Block retrieved from server disk");
+							SimulatorLogger.writeLog(name, "Block retrieved from server disk", infoLevel);
 						}
 						
 						
 					}
-					System.out.println("Client "+ id + ": Adding the block to the cache");
-					cacheAlgorithm.swap(this.cache, blockNeeded);
-				}
-				else{
-					//System.out.println("Client "+ id + ": Got block from self at " + Tick.ticker);
+					//System.out.println("Client "+ id + ": Adding the block to the cache");
+					SimulatorLogger.writeLog(name, "Adding the block to the cache", infoLevel);
+					
+					algorithmObj.swap(this.cache, blockNeeded); // adding newly retrieved block to own cache
 				}
 				
 				endTime = tickObj.getTicker();//Tick.ticker;
-				System.out.println("Client "+ id + ": End time " + endTime);
+				//System.out.println("Client "+ id + ": End time " + endTime);
+				SimulatorLogger.writeLog(name, "End time " + endTime, infoLevel);
 				Integer diff = endTime-startTime;
 				time.add(diff.doubleValue());
 			}
 			catch ( Exception e)
 			{
+				SimulatorLogger.writeLog(name, e.getMessage(), severeLevel);
 				e.printStackTrace();
 			}
 		}

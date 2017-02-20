@@ -5,6 +5,9 @@ public class Server {
 
 	static int cacheSize;
 	static ArrayList<Integer> serverCache;
+	final static String name = "SERVER";
+	static String infoLevel = "INFO";
+	static String severeLevel = "SEVERE";
 	
 	// method to initially fill the cache with random blocks
 	public static void fillCache(int size){
@@ -19,20 +22,22 @@ public class Server {
 				serverCache.add(block);
 			}
 		}
-		System.out.println("Server: SERVER CACHE: ");
+		/*System.out.println("Server: SERVER CACHE: ");
 		for ( int val:serverCache){
 			System.out.print(val + " ");
 		}
-		System.out.println();
+		System.out.println();*/
 	}
 
 	public static synchronized int getBlockFromServerCache(int blockRequested){
 		
 		if (serverCache.indexOf(blockRequested) != -1){
-			System.out.println("Server: I have the block");
+			//System.out.println("Server: I have the block");
+			SimulatorLogger.writeLog(name, "I have the block", infoLevel);
 		}
 		else{
-			System.out.println("Server: I don't have the block");
+			//System.out.println("Server: I don't have the block");
+			SimulatorLogger.writeLog(name, "I don't have the block", infoLevel);
 		}
 		
 		return serverCache.indexOf(blockRequested);
